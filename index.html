@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<style>
+    .bottomright {
+  position:absolute;
+  
+  right: 16px;
+  font-size: 18px;
+    }
+    .button {
+      font-family: 'Pattaya', sans-serif;
+    }
+    .center {
+  position: relative;
+  margin: auto;
+  text-align: center;
+  font-size: 90px;
+    }
+  .lowertext {
+  text-align: center;
+  position: relative; 
+  font-size: 35px;
+  }
+  .center-text {
+  text-align: center;
+  position: relative; 
+  font-size: 35px;
+
+  }
+  .dropbtn {
+  background-color: rgba(0, 0, 0, 0);
+  text-align: center;
+  font-size: 35px;
+  position: relative; 
+  border: none;
+  font-family: 'Pattaya', sans-serif;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  
+  color: black;
+  padding: 10px 1px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #00000000;}
+
+
+    body {
+    background-image: url("https://images.unsplash.com/photo-1574071318508-1cdbab80d002?ixlib");
+    font-family: 'Pattaya', sans-serif;
+
+  height: 100%;
+
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;  
+    }
+    a:link {
+      color: rrgb(245, 145, 14);
+      background-color: transparent;
+      text-decoration: none;
+    }
+    
+    a:visited {
+      color: rgb(245, 145, 14);
+      background-color: transparent;
+      text-decoration: none;
+    }
+    
+    a:hover {
+      color: rgb(241, 168, 72);
+      background-color: transparent;
+      text-decoration: none;
+    }
+    
+    a:active {
+      color: rgb(241, 168, 72);
+      background-color: transparent;
+      text-decoration: none;
+    }
+    </style>
+<html>
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet">
+
+  <title>I Want Some Pizza</title>
+</head>
+<body>
+<div class="center">
+<a href="https://www.google.com/maps/search/pizza+near+me"><H1 >Get Some</H1></a>
+</div>
+<div class="lowertext">
+  <p>or</p>
+  
+  <div class="dropdown">
+    <button class="dropbtn">Pick your favourite</button>
+    <div class="dropdown-content">
+      <a href="https://www.dominos.com/index.intl.html">Domino's</a>
+      <a href="https://www.pizzahut.com/">Pizza Hut</a>
+      <a href="https://www.papajohns.com/">Papa John's</a>
+    </div>
+  </div>
+  </div>
+</div>
